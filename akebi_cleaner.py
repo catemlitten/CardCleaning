@@ -35,4 +35,4 @@ df['romaji'] = df['kanjiwithfurigana'].apply(push_furigana)
 df['kanjiwithfurigana'] = df['kanjiwithfurigana'].apply(clean_kanji)
 
 
-df.to_csv('akebi_cards2.csv', index=False)  
+df.to_csv('akebi_cards.csv', index=False)  
