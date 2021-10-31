@@ -1,5 +1,4 @@
 import pandas
-import re
 
 '''
 Akebi is handy for adding quickly adding words to Anki on mobile
